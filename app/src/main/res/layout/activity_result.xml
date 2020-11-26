@@ -4,37 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     tools:context=".ResultActivity">
 
     <TextView
-        android:id="@+id/text1"
+        android:id="@+id/text_reult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"/>
 
-    <TextView
-        android:id="@+id/text2"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20sp"/>
-
-    <TextView
-        android:id="@+id/text3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="20sp"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="="
-        android:textSize="20sp"/>
-
-    <TextView
-        android:id="@+id/result"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="20sp"/>
+        android:text="이전 화면으로"/>
 
 </LinearLayout>
